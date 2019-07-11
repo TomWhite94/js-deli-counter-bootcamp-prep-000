@@ -1,6 +1,8 @@
 var katzDeliLine = []
 var otherDeli = ["Steven", "Blake", "Avi"];
 var nolongerserved =[]
+var e=0; 
+  
 
 
 function takeANumber(deli, name) {
@@ -9,11 +11,9 @@ function takeANumber(deli, name) {
 }
 
 function takeANumber(deli) {
-  var e; 
-  e=0; 
   e++
   deli.push(e)
-  return "Welcome, you have ticket number" + i
+  return "Welcome, you have ticket number" + e
 }
 
 
