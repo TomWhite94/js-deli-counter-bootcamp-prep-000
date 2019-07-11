@@ -11,8 +11,8 @@ function takeANumber(deli, name) {
 function takeANumber(deli) {
   var e; 
   e=0; 
-  i++
-  deli.push(i)
+  e++
+  deli.push(e)
   return "Welcome, you have ticket number" + i
 }
 
