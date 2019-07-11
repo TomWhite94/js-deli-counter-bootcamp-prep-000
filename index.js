@@ -8,6 +8,18 @@ function takeANumber(deli, name) {
   return "Welcome, " + name + ". You are number " + parseInt(deli.length) + " in line."
 }
 
+function takeANumber(deli) {
+  var i; i=1
+  deli.push()
+}
+
+
+
+
+
+
+
+
 function nowServing(deli) {
   if (deli.length > 0) {
     nolongerserved.unshift(deli[0])
